@@ -1,0 +1,28 @@
+body{
+  background-color: #e4e1e1;
+}
+#photo {
+  height: 300px;
+  width: 300px;
+  border: 2px dashed #5a5555;
+  margin: 50px auto;
+}
+#pic{
+  height: 100%;
+  width: 100%;
+  display: block;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+}
+.transition {
+  -webkit-transform: scale(1.8); 
+  -moz-transform: scale(1.8);
+  -o-transform: scale(1.8);
+  transform: scale(1.8);
+}
+.choosDiv{
+  text-align: center;
+  color: darkslategrey;
+}
